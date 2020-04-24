@@ -1,18 +1,8 @@
 # Password Generator
 import random
-#from string import ascii_lowercase, ascii_uppercase
 import string
 import pyperclip
 import termcolor
-
-
-#alphabet = []
-#for i in string.ascii_lowercase, string.ascii_uppercase:
-#    alphabet += i
-
-
-
-#numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 
 collection = string.punctuation + string.digits + string.ascii_uppercase + string.ascii_lowercase
 
